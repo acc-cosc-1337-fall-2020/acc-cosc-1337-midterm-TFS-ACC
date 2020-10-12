@@ -10,3 +10,9 @@ TEST_CASE("test")
 {
 	REQUIRE(test_config() == true);
 }
+
+TEST_CASE(){
+
+	REQUIRE(get_rna_from_dna("GATGGAACTTGACTACGTAAATT") == "GAUGGAACUUGACUACGUAAAUU");
+
+}
