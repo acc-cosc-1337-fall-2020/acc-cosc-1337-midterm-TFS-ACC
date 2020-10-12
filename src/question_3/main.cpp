@@ -21,7 +21,7 @@ int main()
         cout << "Do you want to continue? (Y/N): "; 
         cin >> cont;
 
-    }while(cont == 'Y');
+    }while(cont == 'Y' || cont == 'y');
 
     return 0;
 }
